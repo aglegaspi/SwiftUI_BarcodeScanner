@@ -72,16 +72,21 @@ final class ScannerVC: UIViewController {
 
 extension ScannerVC: AVCaptureMetadataOutputObjectsDelegate {
     
+    //delegate method
     func metadataOutput(_ output: AVCaptureMetadataOutput,
                         didOutput metadataObjects: [AVMetadataObject],
                         from connection: AVCaptureConnection) {
         
+        // checks if we have a metadata object in our array and grabs it
         guard let object = metadataObjects.first else { return }
         
+        // checks if it's a machine readable object
         guard let machineReadableObject = object as? AVMetadataMachineReadableCodeObject else { return }
         
+        // takes the machine reable object and gets the string value out of it
         guard let barcode = machineReadableObject.stringValue else { return }
         
+        // send that string value to our delegate
         scannerDelegate?.didFind(barcode: barcode)
         
     }
