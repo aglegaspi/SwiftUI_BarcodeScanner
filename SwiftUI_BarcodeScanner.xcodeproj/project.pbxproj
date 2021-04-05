@@ -11,6 +11,7 @@
 		EC20FD00261BC49900FD6BD4 /* BarcodeScannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC20FCFF261BC49900FD6BD4 /* BarcodeScannerView.swift */; };
 		EC20FD02261BC49B00FD6BD4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC20FD01261BC49B00FD6BD4 /* Assets.xcassets */; };
 		EC20FD05261BC49B00FD6BD4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC20FD04261BC49B00FD6BD4 /* Preview Assets.xcassets */; };
+		ECA6E37A261BC9A60067262F /* ScannerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECA6E379261BC9A60067262F /* ScannerVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		EC20FD01261BC49B00FD6BD4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EC20FD04261BC49B00FD6BD4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		EC20FD06261BC49B00FD6BD4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECA6E379261BC9A60067262F /* ScannerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScannerVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 			children = (
 				EC20FCFD261BC49900FD6BD4 /* SwiftUI_BarcodeScannerApp.swift */,
 				EC20FCFF261BC49900FD6BD4 /* BarcodeScannerView.swift */,
+				ECA6E379261BC9A60067262F /* ScannerVC.swift */,
 				EC20FD01261BC49B00FD6BD4 /* Assets.xcassets */,
 				EC20FD06261BC49B00FD6BD4 /* Info.plist */,
 				EC20FD03261BC49B00FD6BD4 /* Preview Content */,
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ECA6E37A261BC9A60067262F /* ScannerVC.swift in Sources */,
 				EC20FD00261BC49900FD6BD4 /* BarcodeScannerView.swift in Sources */,
 				EC20FCFE261BC49900FD6BD4 /* SwiftUI_BarcodeScannerApp.swift in Sources */,
 			);
