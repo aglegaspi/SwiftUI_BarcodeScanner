@@ -8,9 +8,9 @@
 import UIKit
 import AVFoundation
 
-enum CameraError: String {
-    case invalidDeviceInput     = "Unable to capture the camera input."
-    case invalidScannedValue    = "Value scanned is not valid. This app scans EAN-8/EAN-13"
+enum CameraError {
+    case invalidDeviceInput
+    case invalidScannedValue
 }
 
 protocol ScannerVCDelegate: class {
