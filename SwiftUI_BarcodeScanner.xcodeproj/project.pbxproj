@@ -11,6 +11,7 @@
 		EC20FD00261BC49900FD6BD4 /* BarcodeScannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC20FCFF261BC49900FD6BD4 /* BarcodeScannerView.swift */; };
 		EC20FD02261BC49B00FD6BD4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC20FD01261BC49B00FD6BD4 /* Assets.xcassets */; };
 		EC20FD05261BC49B00FD6BD4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC20FD04261BC49B00FD6BD4 /* Preview Assets.xcassets */; };
+		EC81AA51261CA59A00934BFB /* ScannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC81AA50261CA59A00934BFB /* ScannerView.swift */; };
 		ECA6E37A261BC9A60067262F /* ScannerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECA6E379261BC9A60067262F /* ScannerVC.swift */; };
 /* End PBXBuildFile section */
 
@@ -21,6 +22,7 @@
 		EC20FD01261BC49B00FD6BD4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EC20FD04261BC49B00FD6BD4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		EC20FD06261BC49B00FD6BD4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC81AA50261CA59A00934BFB /* ScannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScannerView.swift; sourceTree = "<group>"; };
 		ECA6E379261BC9A60067262F /* ScannerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScannerVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -60,6 +62,7 @@
 				EC20FD01261BC49B00FD6BD4 /* Assets.xcassets */,
 				EC20FD06261BC49B00FD6BD4 /* Info.plist */,
 				EC20FD03261BC49B00FD6BD4 /* Preview Content */,
+				EC81AA50261CA59A00934BFB /* ScannerView.swift */,
 			);
 			path = SwiftUI_BarcodeScanner;
 			sourceTree = "<group>";
@@ -142,6 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				ECA6E37A261BC9A60067262F /* ScannerVC.swift in Sources */,
+				EC81AA51261CA59A00934BFB /* ScannerView.swift in Sources */,
 				EC20FD00261BC49900FD6BD4 /* BarcodeScannerView.swift in Sources */,
 				EC20FCFE261BC49900FD6BD4 /* SwiftUI_BarcodeScannerApp.swift in Sources */,
 			);
@@ -273,6 +277,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftUI_BarcodeScanner/Preview Content\"";
+				DEVELOPMENT_TEAM = 7QAYF98LA4;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = SwiftUI_BarcodeScanner/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -294,6 +299,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftUI_BarcodeScanner/Preview Content\"";
+				DEVELOPMENT_TEAM = 7QAYF98LA4;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = SwiftUI_BarcodeScanner/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
