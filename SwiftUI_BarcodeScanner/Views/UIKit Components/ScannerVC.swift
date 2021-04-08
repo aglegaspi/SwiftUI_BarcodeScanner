@@ -51,6 +51,7 @@ final class ScannerVC: UIViewController {
         previewLayer.frame = view.layer.bounds
     }
     
+    
     // heart of the screen set up the capture screen
     private func setupCaptureSession() {
         guard let videoCaptureDevice = AVCaptureDevice.default(for: .video) else {
